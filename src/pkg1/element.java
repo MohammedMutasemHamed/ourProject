@@ -5,8 +5,8 @@ package pkg1;
 public class element {
     
     private int status;
-    boolean clicked;
-    boolean flag;
+    private boolean clicked;
+    private boolean flag;
     
     public element()
     {
@@ -16,15 +16,15 @@ public class element {
     }
 
     public int getStatus() {
-        return status;
+        return this.status;
     }
 
     public boolean isClicked() {
-        return clicked;
+        return this.clicked;
     }
 
     public boolean isFlag() {
-        return flag;
+        return this.flag;
     }
 
     public void setStatus(int status) {
@@ -38,5 +38,7 @@ public class element {
     public void setFlag(boolean flag) {
         this.flag = flag;
     }
+
+    
     
 }
